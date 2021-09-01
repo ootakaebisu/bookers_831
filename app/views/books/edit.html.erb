@@ -1,0 +1,6 @@
+<h1>Editing Book</h1>
+
+<%= render "layouts/book.form", model: @book, button: "UpdateBook" %>
+
+<%= link_to "Show", book_path(@book) %> |
+<%= link_to "Back", books_path %>
